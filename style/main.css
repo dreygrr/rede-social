@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* font-family: 'Space Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+/* font-family: 'Share Tech Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+/* font-family: 'Major Mono Display', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Space Mono', sans-serif;
+    font-size: 24px;
+}
+
+
+
+:root {
+    /* MAIN APP COLORS */
+    --color-blue1: #122a61;
+    --color-blue2: #1F4690;
+    --color-blue3: #277BC0;
+    --color-blue4: #54afff;
+    --color-blue5: #97D2EC;
+
+
+    --color-purple0: #1c0e44;
+    --color-purple1: #3B3486;
+    --color-purple2: #472183;
+    --color-purple3: #7743DB;
+    --color-purple4: #c34edd;
+
+
+    --color-pink3: #FB2576;
+    --color-pink4: #FA58B6;
+    --color-pink5: #C060A1;
+
+
+    --color-red3: #E94560;
+
+
+    --color-light0: #F1F6F5;
+    --color-light1: #FCFDF2;
+    --color-light2: #FFE9B1;
+    --color-light3: #E9D5CA;
+    --color-light4: #F0CAA3;
+
+
+    --color-dark0: #12161c;
+    --color-dark1: #16213E;
+    --color-dark2: #363062;
+    --color-dark3: #4D4C7D;
+    --color-dark4: #827397;
+    --color-dark5: #dacdec;
+
+
+    --color-white: white;
+    --color-black: black;
+
+
+    --color-altblack: var(--color-dark0);
+    --color-altwhite: var(--color-light0);
+
+
+
+    /* APP COMPONENTS */
+    --color-navbg: var(--color-purple0);
+
+    --color-navsearchbg: var(--color-dark3);
+    --color-navsearchtxt: var(--color-dark5);
+}

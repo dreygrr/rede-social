@@ -1,0 +1,242 @@
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+
+    color: var(--color-dark1);
+}
+
+
+.block {
+    width: 75%;
+    margin: 30px auto;
+}
+
+
+.fullblock {
+    width: 100%;
+}
+
+
+
+.user-wpp {
+    display: block;
+    height: 25vh;
+
+    background: linear-gradient(45deg, var(--color-purple2) 0, var(--color-pink3) 100%);
+}
+
+
+
+.user-card {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    transform: translateY(-50%);
+
+    background-color: var(--color-light0); color: var(--color-dark3);
+    border-radius: 20px;
+    box-shadow: 0 15px 40px 0 rgb(39, 123, 192, .4);
+}
+
+
+.user-card .user-pic {
+    min-width: 120px; max-width: 120px;
+    min-height: 120px; max-height: 120px;
+    margin: auto;
+
+    background: url("../img/my_love.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 100%;
+}
+
+
+.user-card div.user-username-container {
+    display: flex; justify-content: center; align-items: center;
+}
+
+.user-card div.user-username-container div.sep {
+    display: block; width: 100%;
+}
+
+.user-card h2.user-username {
+    width: 100%;
+    margin: auto;
+
+    font-weight: 700;
+    font-size: 36px;
+
+    color: var(--color-dark1);
+}
+
+.user-card div.user-level-container {
+    display: flex; align-items: center;
+    width: 100%;
+}
+
+.user-card p.user-level {
+    width: max-content;
+    padding: 2px 5px;
+    margin-left: 10px;
+    
+    font-size: 15px;
+    font-family: 'Major Mono Display';
+
+    background-color: var(--color-pink3); color: var(--color-white);
+
+    border-radius: 6px;
+}
+
+
+.user-card p.user-realname {
+    text-align: center;
+}
+
+
+.user-card ul.user-socials {
+    display: flex; justify-content: center; align-items: center;
+
+    list-style-type: none;
+}
+
+
+.user-card ul.user-socials li {
+    margin: 0 10px;
+}
+.user-card ul.user-socials li a {
+    color: var(--color-blue3);
+}
+
+
+
+
+
+
+
+.user-about {
+    display: flex; justify-content: center;
+
+    color: var(--color-dark3);
+}
+
+
+.user-about div.aboutme {
+    width: 66%;
+    margin-right: 10px;
+}
+.user-about div.aboutme div.description {
+    display: flex; justify-content: center; align-items: center;
+}
+.user-about div.aboutme div.picture {
+    min-width: 250px; max-width: 250px;
+    height: 400px;
+    margin-right: 20px;
+
+    background-image: url("../img/my_love2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border-radius: 20px 0 20px 0;
+    box-shadow: 10px 10px 0 0 rgb(251, 37, 118);
+}
+
+
+.user-about div.schooling {
+    width: 33%;
+    margin-left: 10px;
+}
+.user-about div.schooling ul.stages li {
+    display: flex; align-items: center;
+    width: 500px;
+    padding: 6px 10px;
+    margin: 10px 0;
+
+    background-color: #f5f5f5;
+    box-shadow: 0 10px 20px 0 rgba(93, 66, 145, 0.3);
+
+    border: 3px solid var(--color-purple2);
+    border-radius: 15px;
+}
+
+.user-about div.schooling ul.stages li i {
+    display: flex; justify-content: center; align-items: center;
+    min-width: 60px; max-width: 60px;
+    min-height: 60px; max-height: 60px;
+    
+    font-size: 36px;
+}
+.user-about div.schooling ul.stages li p {
+    font-size: 15px;
+}
+
+
+.user-about div.schooling ul.stages li.stage1 {
+    border-color: var(--color-purple2);
+}
+.user-about div.schooling ul.stages li.stage2 {
+    border-color: var(--color-purple3);
+}
+.user-about div.schooling ul.stages li.stage3 {
+    border-color: var(--color-purple4);
+}
+.user-about div.schooling ul.stages li.stage4 {
+    border-color: var(--color-pink4);
+}
+.user-about div.schooling ul.stages li.specialstage {
+    line-height: 26px;
+    background-color: var(--color-dark5);
+
+    border-color: transparent;
+}
+
+
+.projects {
+    background-color: var(--color-purple3); color: var(--color-white);
+}
+.user-projects {
+    padding: 30px;
+}
+.user-projects h3 {
+    color: var(--color-white);
+}
+.user-projects div.thumb-projects {
+    display: flex; justify-content: center; align-items: center; flex-wrap: wrap;
+}
+
+.user-projects div.thumb-projects div.video {
+    display: flex; justify-content: center; align-items: center;
+    min-width: 240px; max-width: 240px;
+    min-height: 150px; max-height: 150px;
+    margin: 5px;
+}
+
+.user-projects div.thumb-projects div.video a.thumb {
+    display: block;
+    width: 90%;
+    color: var(--color-dark3);
+
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 12px;
+    border: 1px solid var(--color-dark4);
+
+    box-shadow: 0 15px 30px 0 rgba(54, 48, 98, 0.6);
+    transition: .2s;
+}
+.user-projects div.thumb-projects div.video a.thumb:hover {
+    transform: scale(1.05);
+}
+.user-projects div.thumb-projects div.video a.thumb h5 {
+    padding: 4px 10px;
+    font-size: large;
+
+    background-color: var(--color-dark3); color: var(--color-altwhite);
+}
+.user-projects div.thumb-projects div.video a.thumb i {
+    display: flex; justify-content: center; align-items: center;
+    padding: 5px;
+    font-size: 80px;
+
+    background-color: var(--color-dark5);
+}

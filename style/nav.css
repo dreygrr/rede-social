@@ -1,0 +1,144 @@
+nav {
+    padding: 4px 30px;
+    background-color: var(--color-navbg); color: var(--color-white);
+}
+
+
+nav ul {
+    display: flex; align-items: center;
+
+    list-style-type: none;
+}
+
+
+nav div.part {
+    width: 100%;
+}
+
+
+nav div.part-sep {
+    display: block;
+    width: 100%;
+}
+
+
+nav ul li.search-container {
+    display: flex; justify-content: center; align-items: center;
+    padding: 4px 6px;
+
+    background-color: var(--color-navsearchbg);
+
+    border-radius: 15px;
+}
+
+nav ul li.search-container input {
+    padding: 4px 0 4px 6px;
+    width: 100%;
+
+    font-size: large;
+
+    background-color: transparent; color: var(--color-navsearchtxt);
+    border: none; outline: none;
+}
+nav ul li.search-container input::placeholder {
+    color: var(--color-dark4);
+}
+
+nav ul li.search-container a.glass {
+    display: flex; justify-content: center; align-items: center;
+    min-width: 34px; max-width: 34px;
+    min-height: 34px; max-height: 34px;
+
+    color: var(--color-navsearchtxt);
+    border-radius: 100%;
+
+    transition: .1s;
+}
+nav ul li.search-container a.glass i {
+    font-size: medium
+}
+nav ul li.search-container a.glass:hover {
+    background-color: var(--color-dark4);
+}
+
+
+
+
+
+
+nav a {
+    color: var(--color-white);
+
+    text-decoration: none;
+}
+
+
+nav a.logo {
+    display: flex; align-items: center;
+    width: max-content;
+}
+
+
+nav a.logo h1 {
+    margin-left: 10px;
+    font-size: 44px;
+    font-weight: 900;
+
+    font-family: 'Kanit';
+    font-style: italic;
+}
+
+nav a.logo i {
+    font-size: 44px;
+}
+
+
+nav div.links {
+    display: flex; align-items: center;
+}
+
+
+nav div.links li a {
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Major Mono Display';
+
+    text-transform: lowercase;
+
+    transition: .1s;
+}
+nav div.links li a:hover {
+    border-bottom: 2px solid var(--color-pink3);
+}
+
+
+nav div.links li {
+    display: flex; align-items: center;
+    margin: 0 8px;
+}
+
+
+nav div.links li.user-pic-container a {
+    display: flex; justify-content: center; align-items: center;
+    min-width: 40px; max-width: 40px;
+    min-height: 40px; max-height: 40px;
+
+    background-color: var(--color-dark4);
+    border-radius: 100%;
+
+    transition: .1s;
+}
+nav div.links li.user-pic-container a:hover {
+    background-color: var(--color-dark5);
+    border-bottom: unset;
+}
+nav div.links li.user-pic-container a i {
+    color: var(--color-dark2);
+}
+
+nav div.links:last-child li {
+    margin-right: 0;
+}
+nav div.links:first-child li {
+    margin-left: 0;
+}
